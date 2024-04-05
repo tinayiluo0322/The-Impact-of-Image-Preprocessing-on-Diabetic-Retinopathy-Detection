@@ -9,7 +9,7 @@ import numpy as np
 from PIL import Image
 
 
-def crop_image(img, desired_size=(512, 512), threshold=15):
+def crop_image(img, , threshold=15, resize_flag=False, desired_size=(512, 512)):
     # Convert image to numpy array
     img_np = np.array(img)
 
@@ -38,6 +38,7 @@ def crop_image(img, desired_size=(512, 512), threshold=15):
     new_img = Image.fromarray(new_img)
 
     # resizing the image
-    new_img = new_img.resize(desired_size)
+    if resize_flag:
+        new_img = new_img.resize(desired_size)
 
     return new_img
