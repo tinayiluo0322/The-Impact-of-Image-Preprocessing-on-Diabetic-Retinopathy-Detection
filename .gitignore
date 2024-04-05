@@ -162,6 +162,7 @@ cython_debug/
 #Mac-OS files
 .DS_Store
 
-#AWS CLI
+#AWS
 aws/
 awscliv2.zip
+aws_s3
