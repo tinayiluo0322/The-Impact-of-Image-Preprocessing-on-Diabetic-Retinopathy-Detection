@@ -16,3 +16,7 @@ def gpu_check():
         Exception
     ):  # this command not being found can raise quite a few different errors depending on the configuration
         print("No Nvidia GPU in system!")
+
+
+if __name__ == "__main__":
+    gpu_check()
