@@ -1,5 +1,5 @@
 # Add the Libraries and Packages Required for the Project Here, These will be installed when Codespaces is started and on "make install"
-tensorflow
+tensorflow[and-cuda]
 numpy
 matplotlib
 pandas
