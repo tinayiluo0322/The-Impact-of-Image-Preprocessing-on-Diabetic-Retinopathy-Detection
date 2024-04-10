@@ -19,15 +19,18 @@ def gpu_check():
         print("No Nvidia GPU in system!")
         return 0
 
+
 def tf_version():
     """
     Check the version of Tensorflow
     """
     import tensorflow as tf
+
     print(tf.version.VERSION)
-    print("Num GPUs Available: ", len(tf.config.list_physical_devices('GPU')))
+    print("Num GPUs Available: ", len(tf.config.list_physical_devices("GPU")))
+
+
 if __name__ == "__main__":
     if gpu_check():
         tf_version()
     pass
-        
