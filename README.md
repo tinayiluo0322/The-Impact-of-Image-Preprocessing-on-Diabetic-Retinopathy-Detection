@@ -15,7 +15,8 @@ run the s3_download.py script using the following command:
 python3  ./01_Codes/custom_functions/s3_download.py <Data Name>
 ```
 The Data Name can be one of the following:
-- Messidor
+- Messidor_Raw
+- Messidor_Resized
 - Idrid
 - Ddr
 
