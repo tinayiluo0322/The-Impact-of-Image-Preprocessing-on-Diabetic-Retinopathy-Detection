@@ -7,3 +7,5 @@ pandas
 scikit-learn
 parquet
 pyarrow
+opencv-python-headless
+opencv-python
