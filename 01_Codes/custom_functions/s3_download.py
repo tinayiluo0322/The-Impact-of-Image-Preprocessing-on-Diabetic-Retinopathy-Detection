@@ -11,17 +11,20 @@ import argparse
 
 def download(data):
     # lower case the data
-    data = data.lower()
+    # data = data.lower()
 
     # making only the first letter of the data to be capital
-    data = data.capitalize()
+    # data = data.capitalize()
 
     # checking if zip is in the data name and removing it
     if "zip" in data:
         data = data.replace(".zip", "")
 
-    if data not in ["Idrid", "Messidor", "Ddr"]:
-        print("Please enter the correct data: Idrid, Messidor, Ddr")
+    if data not in ["Idrid", "Messidor_Raw", "Ddr", "Messidor_Resized"]:
+        print(
+            f"Invalid Data: {data}\n"
+            "Please enter the correct data: Idrid, Messidor_Raw, Messidor_Resized, Ddr"
+        )
         return 0
 
     # saving the current directory
@@ -59,7 +62,7 @@ def main():
     parser.add_argument(
         "data",
         type=str,
-        help="The data to be downloaded from the S3 Bucket : Idrid, Messidor, Ddr",
+        help="The data to be downloaded from the S3 Bucket : Idrid, Messidor_Raw, Messidor_Resized, Ddr",
     )
     args = parser.parse_args(args)
     x = download(args.data)
