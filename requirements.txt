@@ -10,4 +10,13 @@ pyarrow
 opencv-python-headless
 opencv-python
 scikit-image
-torch torchvision torchaudio
+tensorflow
+numpy
+opencv-python-headless  
+pandas
+Pillow
+scikit-image
+scipy
+scikit-learn
+torch
+
