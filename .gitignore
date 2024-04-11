@@ -166,3 +166,6 @@ cython_debug/
 aws/
 awscliv2.zip
 aws_s3
+
+#Pre-processoing files
+**/Tina Codes/*images*/**

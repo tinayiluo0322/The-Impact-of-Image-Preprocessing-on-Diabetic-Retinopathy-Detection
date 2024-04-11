@@ -9,3 +9,5 @@ parquet
 pyarrow
 opencv-python-headless
 opencv-python
+scikit-image
+torch torchvision torchaudio
