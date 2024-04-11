@@ -5,6 +5,12 @@
 
 ## 1. Instructions
 
+### 1.0 Set Up Bash
+
+```bash
+bash setup.sh
+```
+
 ### 1.1 Downloading Data from AWS
 
 Option 1: Downloading Data from AWS using the ``s3_download.py`` script
