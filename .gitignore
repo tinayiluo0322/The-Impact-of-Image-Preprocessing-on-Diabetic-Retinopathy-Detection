@@ -169,3 +169,6 @@ aws_s3
 
 #Pre-processoing files
 **/Tina Codes/*images*/**
+
+#Numpy files
+*.npy
