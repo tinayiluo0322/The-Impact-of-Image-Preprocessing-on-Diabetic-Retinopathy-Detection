@@ -49,7 +49,8 @@
                 "mechatroner.rainbow-csv",
                 "ms-toolsai.jupyter",
                 "ms-python.black-formatter",
-                "tomoki1207.pdf"
+                "tomoki1207.pdf",
+                "analytic-signal.preview-tiff"
             ]
         }
     },
