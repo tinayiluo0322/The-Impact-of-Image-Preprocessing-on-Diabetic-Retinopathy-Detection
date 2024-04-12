@@ -20,12 +20,12 @@ def download(data):
     if "zip" in data:
         data = data.replace(".zip", "")
 
-    if data not in ["Idrid", "Messidor_Raw", "Ddr", "Messidor_Resized"]:
-        print(
-            f"Invalid Data: {data}\n"
-            "Please enter the correct data: Idrid, Messidor_Raw, Messidor_Resized, Ddr"
-        )
-        return 0
+    # if data not in ["Idrid", "Messidor_Raw", "Ddr", "Messidor_Resized"]:
+    #     print(
+    #         f"Invalid Data: {data}\n"
+    #         "Please enter the correct data: Idrid, Messidor_Raw, Messidor_Resized, Ddr"
+    #     )
+    #     return 0
 
     # saving the current directory
     current_dir = os.getcwd()
