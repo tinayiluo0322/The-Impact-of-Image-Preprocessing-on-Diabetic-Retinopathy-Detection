@@ -10,7 +10,6 @@ pyarrow
 opencv-python-headless
 opencv-python
 scikit-image
-tensorflow
 numpy
 opencv-python-headless  
 pandas
@@ -19,4 +18,3 @@ scikit-image
 scipy
 scikit-learn
 torch
-
